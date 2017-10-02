@@ -1,11 +1,13 @@
 def turn_count(board)
   board_piece = 0
   counter = 0
-  board.each do
+  while board_piece < board.length
     if board[board_piece] == "X" || "O" #? counter += 1 : counter += 0
       counter += 1
       puts "i got here"
     end
+    board_piece += 1
+  end
 end
 
 def current_player(counter)
