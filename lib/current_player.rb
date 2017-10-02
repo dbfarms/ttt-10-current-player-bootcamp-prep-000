@@ -4,6 +4,7 @@ def turn_count(board)
   board.each do
     if board[board_piece] == "X" || "O" #? counter += 1 : counter += 0
       counter += 1
+      puts "i got here"
     end
 end
 
