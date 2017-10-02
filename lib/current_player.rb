@@ -3,7 +3,7 @@ def turn_count(board)
   counter = 0
   puts board.length
   while board_piece <= board.length
-    if board[board_piece] == "X" && "O" #? counter += 1 : counter += 0
+    if board[board_piece] != " " #? counter += 1 : counter += 0
       counter += 1
       puts board_piece
     end
